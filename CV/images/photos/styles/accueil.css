@@ -1,0 +1,19 @@
+.presentation{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-items: flex-start;
+    margin-left : 70px;
+}
+
+.presentation h1{
+    margin-bottom : 15px;
+}
+
+.presentation p{
+    margin-bottom: 30px;
+}
+
+.presentation div{
+    padding-right: 80px;
+}
