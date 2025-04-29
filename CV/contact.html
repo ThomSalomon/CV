@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CV - Thomas SALOMON</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/contact.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href = "accueil.html">Accueil</a>
+            <a href = "exPro.html">Expériences</a>
+            <a href = "loisirs.html">Loisirs</a>
+            <a href= "contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact" class="section-contact">
+            <h2>Me Contacter</h2>
+            <form id = "contact-form" method="POST" action="">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="user_nom" id="nom" placeholder = "Votre nom" required/>
+                    </div>
+                    <div class="form-column">
+                        <label for="email">Email</label>
+                        <input type="email" name="user_email" id="email" placeholder = "Votre Email" required/>
+                    </div>
+                </div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10" placeholder="Vous pouvez rédiger votre message ici et cliquer sur envoyer pour m'envoyer directement un mail de réponse" required></textarea>
+                <input type="submit" value="ENVOYER" class="cta" />
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <a target = "_blank" href = "www.linkedin.com/in/thomas-salomon-924a38137" class="lien-icone">
+            <img src="images/linkedin.png" alt = "logo linkedin">
+        </a>
+    </footer>
+
+</body>
+
+</html>
