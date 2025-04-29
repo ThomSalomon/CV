@@ -6,7 +6,7 @@
     padding-left: 60px;
 }
 
-/* s’applique à tes 3 containers sans toucher à ton HTML */
+/* s’applique aux containers sans toucher HTML */
 .st_michel_container,
 .mylan_container,
 .vandemoortele_container {
