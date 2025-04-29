@@ -6,8 +6,7 @@
     <title>CV - Thomas SALOMON</title>
     <link href="styles/style.css" rel="stylesheet" />
     <link href="styles/loisirs.css" rel="stylesheet" />
-    <script src = "script.js" defer></script>
-    <script src = "photo.js" defer></script>
+    <script src = "scripts/photo.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
@@ -44,12 +43,21 @@
                     <video src = "images/photos/kite_surf.MP4" alt = "kite_surf" width="300" muted controls></video>
                     <div class="photo_hover">Kitesurf</div>
                 </a>
+                <a href = "images/photos/lecture.png" class = "lien_photo">
+                    <img src = "images/photos/lecture.png" alt = "lecture">
+                    <div class="photo_hover">Lecture</div>
+                </a>
+                <a href = "images/photos/faune.jpg" class = "lien_photo">
+                    <img src = "images/photos/faune.jpg" alt = "faune">
+                    <div class="photo_hover">Faune & Flore</div>
+                </a>
         </section>
+
 <!-- Lightbox pour image ou vidéo agrandie -->
             <div id="lightbox" class="hidden">
                 <div class="lightbox_content">
                     <img id="lightbox_img" class="hidden" src="" alt="image en grand">
-                    <video id="lightbox_video" class="hidden" controls></video>
+                    <video id="lightbox_video" class="hidden" controls muted></video>
                 </div>
             </div>
     </main>
