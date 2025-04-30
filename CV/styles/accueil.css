@@ -18,6 +18,11 @@
     padding-right: 80px;
 }
 
+.presentation img{
+    max-width: 350px;
+    height: auto;
+}
+
 @media screen and (max-width: 996px) {
     .presentation{
         display: flex;
@@ -35,9 +40,5 @@
 
     .presentation div{
         padding-right: 0px;
-    }
-
-    .presentation p{
-        display : none;
     }
 }
